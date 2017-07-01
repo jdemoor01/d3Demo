@@ -17,4 +17,12 @@
     <h2><a target="_blank" href="http://angularjs.blogspot.ca/">Angular blog</a></h2>
   </li>
 </ul>
-
+<div>
+  <ul>
+    <li
+    *ngFor="let currentColor of colors"
+    style="color: currentColor; background: #fff;">
+      {{currentColor}}
+    </li>
+  </ul>
+</div>
